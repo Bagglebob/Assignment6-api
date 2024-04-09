@@ -16,7 +16,7 @@ let JwtStrategy = passportJWT.Strategy;
 // Configure its options
 let jwtOptions = {
     jwtFromRequest: ExtractJwt.fromAuthHeaderWithScheme('jwt'),
-    secretOrKey: "4&sMdW$1FZ0m3o#W%n1,45M,oHko`44J9J8$d}PZhs\&*1|$R£m2P9GSnlCs£[%8",
+    secretOrKey: "4&sMdW$1FZ0m3o#W%n1,45M,oHko`44J9J8$d}PZhs*1|$R£m2P9GSnlCs£[%8",
   };   
   
   let strategy = new JwtStrategy(jwtOptions, function (jwt_payload, next) {
